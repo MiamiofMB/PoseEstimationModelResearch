@@ -1,15 +1,16 @@
 # Human Pose Estimation and Tracking System
 
-Система для оценки позы человека и отслеживания в видеофайлах с использованием MediaPipe и DeepSORT.
+A comprehensive computer vision system for real-time human pose estimation and multi-person tracking in video files using MediaPipe and DeepSORT.
 
-## 🚀 Возможности
+## 🚀 Features
 
-- **Оценка позы человека**: Детектирование 33 ключевых точек тела с помощью MediaPipe Pose
-- **Мульти-трекинг**: Отслеживание нескольких людей между кадрами с помощью DeepSORT
-- **Визуализация**: Отрисовка скелета позы и bounding box с уникальными цветами для каждого ID
-- **Обработка видео**: Пакетная обработка нескольких видеофайлов
+- **Human Pose Estimation**: Detection of 33 body keypoints using MediaPipe Pose
+- **Multi-Person Tracking**: Robust tracking across frames with DeepSORT algorithm
+- **Visualization**: Real-time skeleton drawing and colored bounding boxes with unique IDs
+- **Batch Processing**: Support for multiple video file processing
+- **Real-time Performance**: Optimized for efficient video processing
 
-## 📦 Установка зависимостей
+## 📦 Installation
 
 ```bash
 pip install deep_sort_realtime mediapipe opencv-python
